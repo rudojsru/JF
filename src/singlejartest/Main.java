@@ -62,7 +62,7 @@ public class Main {
         subscribeToInstruments();
 
         LOGGER.info("Starting strategy");
-        client.startStrategy(new MA_Play());
+        client.startStrategy(new Strategy1());
         //now it's running
     }
 
